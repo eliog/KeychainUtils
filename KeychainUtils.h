@@ -1,5 +1,5 @@
 //
-//  SFHFKeychainUtils.h
+//  KeychainUtils.h
 //
 //  Created by Buzz Andersen on 10/20/08.
 //  Based partly on code by Jonathan Wight, Jon Crosby, and Mike Malone.
@@ -27,9 +27,7 @@
 //  OTHER DEALINGS IN THE SOFTWARE.
 //
 
-#
-
-@interface SFHFKeychainUtils : NSObject
+@interface KeychainUtils : NSObject
 
 + (NSString *)getPasswordForUsername:(NSString *)username
                       andServiceName:(NSString *)serviceName
